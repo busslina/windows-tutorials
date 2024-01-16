@@ -9,6 +9,8 @@ Target: **Windows**
 
 [Key-based authentication in OpenSSH for Windows](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement)
 
+[sshd_config — OpenSSH daemon configuration file](https://man.openbsd.org/sshd_config)
+
 ## 3. Configuration file
 **C:\ProgramData\ssh\sshd_config**
 
@@ -79,6 +81,9 @@ ssh user@host
 ```
 
 ## 11 Server Logging
+[Logging Facilities](https://github.com/PowerShell/Win32-OpenSSH/wiki/Logging-Facilities)
+
+[LogLevel](https://man.openbsd.org/sshd_config#LogLevel)
 ```
 ssh user@host
 ```
