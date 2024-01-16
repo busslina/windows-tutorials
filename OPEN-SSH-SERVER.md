@@ -75,12 +75,7 @@ Loading key into *ssh-agent*:
 ssh-add <private_key>
 ```
 
-## 10 Connecting from client
-```
-ssh user@host
-```
-
-## 11 Server Logging
+## 10 Server Logging
 [Logging Facilities](https://github.com/PowerShell/Win32-OpenSSH/wiki/Logging-Facilities)
 
 [LogLevel](https://man.openbsd.org/sshd_config#LogLevel)
