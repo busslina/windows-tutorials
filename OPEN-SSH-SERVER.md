@@ -88,3 +88,12 @@ SyslogFacility LOCAL0
 LogLevel DEBUG3
 ```
 This will store debug logs into *C:\ProgramData\ssh\logs\sshd.log*.
+
+## 11 Other options
+*C:\ProgramData\ssh\sshd_config*
+```
+PermitRootLogin yes
+```
+```
+PermitRootLogin prohibit-password
+```
