@@ -44,13 +44,18 @@ Get-Content <file>
 ## 3. Other commands
 
 #### 3.1.   Change monitors brightness.
+
 [Use PowerShell to Report and Set Monitor Brightness](https://devblogs.microsoft.com/scripting/use-powershell-to-report-and-set-monitor-brightness/)
+
+[Trying to change brightness on my desktop screens via powershell and encountered an error](https://learn.microsoft.com/en-us/answers/questions/1190063/trying-to-change-brightness-on-my-desktop-screens)
+
 
 [Get-WmiObject](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-wmiobject?view=powershell-5.1)
 
 [WmiMonitorBrightnessMethods class](https://learn.microsoft.com/en-us/windows/win32/wmicoreprov/wmimonitorbrightnessmethods)
 
-[Trying to change brightness on my desktop screens via powershell and encountered an error](https://learn.microsoft.com/en-us/answers/questions/1190063/trying-to-change-brightness-on-my-desktop-screens)
+
+[WmiSetBrightness method of the WmiMonitorBrightnessMethods class](https://learn.microsoft.com/en-us/windows/win32/wmicoreprov/wmisetbrightness-method-in-class-wmimonitorbrightnessmethods)
 
 ```
 Get-WmiObject -namespace root/wmi -class WmiMonitorBrightnessMethods | foreach {
