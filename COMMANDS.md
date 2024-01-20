@@ -50,6 +50,8 @@ Get-Content <file>
 
 [WmiMonitorBrightnessMethods class](https://learn.microsoft.com/en-us/windows/win32/wmicoreprov/wmimonitorbrightnessmethods)
 
+[Trying to change brightness on my desktop screens via powershell and encountered an error](https://learn.microsoft.com/en-us/answers/questions/1190063/trying-to-change-brightness-on-my-desktop-screens)
+
 ```
 Get-WmiObject -namespace root/wmi -class WmiMonitorBrightnessMethods | foreach {
     $_.wmisetbrightness(80,20)
